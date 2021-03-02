@@ -1,0 +1,23 @@
+.title {
+    line-height: 1;
+    &_fz64 {
+        font-weight: 800;
+        font-size: 64px;
+        color: var(--f-color);
+    }
+    &_fz54 {
+        font-weight: 600;
+        font-size: 54px;
+        color: var(--f-color);
+    }
+    &_fz36 {
+        font-weight: 600;
+        font-size: 36px;
+        color: var(--f-color);
+    }
+    &_fz24 {
+        font-weight: 600;
+        font-size: 24px;
+        color: var(--f-color);
+    }
+}

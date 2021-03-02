@@ -1,0 +1,27 @@
+:root {
+    --f-color: #FFFFFF;
+    --h-color: #DDB312;
+    --s-color: #66436E;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    background: linear-gradient(90deg, rgba(102,67,110,1) 48%, rgba(252,70,107,1) 100%); 
+}
+
+@import 'libs/bootstrap-reboot.min';
+
+@import 'base/fonts';
+@import 'base/buttons';
+
+@import 'blocks/title';
+@import 'blocks/promo';
+@import 'blocks/compos';

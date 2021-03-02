@@ -1,0 +1,25 @@
+.button {
+    width: 393px;
+    height: 68px;
+
+    background: var(--s-color);
+
+    font-size: 36px;
+    line-height: 1;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+
+    color: var(--f-color);
+    &__promo, &__compos {
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        text-decoration: none;
+        &:hover {
+            color: var(--f-color);
+        }
+    }
+}
