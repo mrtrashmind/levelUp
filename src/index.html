@@ -58,7 +58,7 @@
                         </div>
                         <div class="compos__product">
                             <div class="compos__product-wrapper">
-                                <div class="compos__lines">
+                                <div class="compos__lines compos__lines-left">
                                     <div class="compos__line compos__line-left"></div>
                                     <div class="compos__line compos__line-left"></div>
                                     <div class="compos__line compos__line-left"></div>
@@ -66,7 +66,7 @@
                                 <div class="compos__img">
                                     <img src="img/prod.png" alt="LevelUp">
                                 </div>
-                                <div class="compos__lines">
+                                <div class="compos__lines compos__lines-right">
                                     <div class="compos__line compos__line-right"></div>
                                     <div class="compos__line compos__line-right"></div>
                                     <div class="compos__line compos__line-right"></div>
@@ -91,7 +91,116 @@
                     </div>
                 </div>
             </section>
+            <section class="reviews">
+                <div class="container">
+                    <h2 class="title title_fz64 reviews__title">ОТЗЫВЫ</h2>
+                    <!-- Слайдер -->
+                    <div class="reviews__slider">
+                        
+                        <div class="reviews__slider-wrapper">
+                            <div class="reviews__slider-inner">
+                                <!-- Слайд -->
+                                <div class="reviews__slide">
+                                    <div class="title title_fz24 reviews__text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eveniet vel, nam quod
+                                        quos asperiores officia ad distinctio rem natus animi necessitatibus vitae expedita
+                                        facilis sit nihil corrupti repellendus beatae!
+                                    </div>
+                                    <div class="reviews__author">
+                                        <div class="reviews__img">
+                                            <img src="img/people_round.jpg" alt="Автор">
+                                        </div>
+                                        <div class="title title_fz24 reviews__name">Имя Фамилия</div>
+                                    </div>
+                                </div>
+                                <!-- Слайд -->
+                                <div class="reviews__slide">
+                                    <div class="title title_fz24 reviews__text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eveniet vel, nam quod
+                                        quos asperiores officia ad distinctio rem natus animi necessitatibus vitae expedita
+                                        facilis sit nihil corrupti repellendus beatae!
+                                    </div>
+                                    <div class="reviews__author">
+                                        <div class="reviews__img">
+                                            <img src="img/people_round.jpg" alt="Автор">
+                                        </div>
+                                        <div class="title title_fz24 reviews__name">Имя Фамилия</div>
+                                    </div>
+                                </div>
+                                <!-- Слайд -->
+                                <div class="reviews__slide">
+                                    <div class="title title_fz24 reviews__text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eveniet vel, nam quod
+                                        quos asperiores officia ad distinctio rem natus animi necessitatibus vitae expedita
+                                        facilis sit nihil corrupti repellendus beatae!
+                                    </div>
+                                    <div class="reviews__author">
+                                        <div class="reviews__img">
+                                            <img src="img/people_round.jpg" alt="Автор">
+                                        </div>
+                                        <div class="title title_fz24 reviews__name">Имя Фамилия</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="advantages">
+                <div class="container">
+                    <h2 class="title title_fz64 advantages__title">ПРОМО</h2>
+                    <div class="advantages__wrapper">
+                        <div class="advantages__img">
+                            <img src="img/doctor.png" alt="Доктор">
+                        </div>
+                        <div class="title title_fz36 advantages__text">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eveniet vel, nam quod
+                                quos asperiores officia ad distinctio rem natus animi necessitatibus vitae expedita
+                                facilis sit nihil corrupti repellendus beatae!
+                            </p>
+                            <ol class="title title_fz36">
+                                <li>Lorem ipsum dolor</li>
+                                <li>Lorem ipsum dolor</li>
+                                <li>Lorem ipsum dolor</li>
+                            </ol>
+                            <a href="#contacts" class="button button__advantages">ЗАКАЗАТЬ</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contacts" >
+                <div class="container">
+                    <h2 class="title title_fz64 contacts__title">ЗАКАЗАТЬ</h2>
+                    <div class="contacts__wrapper">
+                        <div class="contacts__product">
+                            <div class="contacts__img">
+                                <img src="img/prod.png" alt="LevelUp">
+                            </div>
+                            <div class="contacts__price">
+                                <div class="title title_fz24">Старая цена: <span>3500Р</span></div>
+                                <div class="title title_fz36">Новая цена: <span>1999Р</span></div>
+                            </div>
+                        </div>
+                        <form action="#" id="contacts" class="contacts__form">
+                            <div class="contacts__form-wrapper">
+                                <div class="item" data-title="Например: Вася Пупкин">
+                                    <input required placeholder="Ваше имя" type="text" class="name" name="name" id="name">
+                                </div>                              
+                                <div class="item" data-title="Например: +79995554433">
+                                    <input required pattern="[0-9]" placeholder="Ваш телефон" type="tel" class="tel" name="tel" id="tel">
+                                </div>
+                                <div class="item" data-title="Например: 'Хочу сразу три пачки!' или 'Можно ли его втирать?'">
+                                    <textarea required placeholder="Ваше сообщение" name="text" id="text" rows="10" class="text"></textarea>
+                                </div>
+                            </div>
+                            <button class="button button__contacts">ОТПРАВИТЬ</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
+    <script src="js/script.js"></script>
 </body>
 </html>

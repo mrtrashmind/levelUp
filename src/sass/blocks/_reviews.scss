@@ -1,0 +1,45 @@
+.reviews {
+    padding: 70px 0;
+    .container {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        text-align: center;
+    }
+    &__slider {
+        width: 700px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        &-wrapper {
+            width: 100%;
+            margin-top: 15px;
+        }
+    }
+    &__slide {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+
+        width: 700px;
+        height: 500px;
+
+        padding: 70px 70px;
+
+        background: var(--f-color);
+    }
+    &__text, &__name {
+        color: #000000;
+    }
+    &__author {
+        display: flex;
+        align-items: center;
+    }
+    &__img {
+        margin-right: 20px;
+    }
+}
